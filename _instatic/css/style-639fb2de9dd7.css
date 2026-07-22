@@ -1,0 +1,434 @@
+.zwLogo {
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+}
+
+.zwNavCta {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.zwNavLinks {
+  display: flex;
+  row-gap: 28px;
+  column-gap: 28px;
+  font-size: 15px;
+  color: var(--soft);
+}
+
+@media (max-width: 800px) {
+  .zwNavLinks {
+  row-gap: 16px;
+  column-gap: 16px;
+  font-size: 13px;
+  }
+}
+
+.zwNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 56px;
+  border-bottom: 1px solid var(--line);
+}
+
+@media (max-width: 800px) {
+  .zwNav {
+  padding: 20px 24px;
+  }
+}
+
+.zwEyebrow {
+  font-size: 14px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.zwHeroTitle {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.05;
+  margin: 0px auto;
+  max-width: 16ch;
+}
+
+@media (max-width: 800px) {
+  .zwHeroTitle {
+  font-size: 44px;
+  }
+}
+
+.zwHeroSub {
+  font-size: 21px;
+  line-height: 1.55;
+  color: var(--soft);
+  max-width: 56ch;
+  margin: 32px auto 0px;
+}
+
+.zwBtnPrimary {
+  background: var(--accent);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 28px;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+  border-bottom-left-radius: 999px;
+  text-decoration-line: none;
+  text-decoration-thickness: auto;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  display: inline-block;
+}
+
+.zwBtnSecondary {
+  border: 1px solid var(--ink);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 28px;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+  border-bottom-left-radius: 999px;
+  text-decoration-line: none;
+  text-decoration-thickness: auto;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  display: inline-block;
+  color: var(--ink);
+}
+
+.zwHeroActions {
+  display: flex;
+  row-gap: 16px;
+  column-gap: 16px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.zwHero {
+  padding: 96px 56px 72px;
+  text-align: center;
+}
+
+.zwPlayTriangle {
+  width: 0px;
+  height: 0px;
+  border-left-width: 22px;
+  border-left-style: solid;
+  border-left-color: rgb(255, 255, 255);
+  border-top-width: 14px;
+  border-top-style: solid;
+  border-top-color: transparent;
+  border-bottom-width: 14px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  margin-left: 6px;
+}
+
+.zwPlayBtn {
+  width: 78px;
+  height: 78px;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+  border-bottom-left-radius: 999px;
+  background: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zwReelCaption {
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--soft);
+}
+
+.zwReelFrame {
+  aspect-ratio: 16 / 9;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: repeating-linear-gradient(45deg,#00000008,#00000008 14px,#00000012 14px,#00000012 28px), var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.zwReel {
+  padding: 0px 56px 88px;
+}
+
+.zwH2 {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-size: 44px;
+  margin: 0px;
+}
+
+.zwWorkYears {
+  font-family: monospace;
+  font-size: 13px;
+  color: var(--soft);
+}
+
+.zwWorkHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+}
+
+.zwThumb {
+  aspect-ratio: 4 / 3;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  background: repeating-linear-gradient(45deg,#00000008,#00000008 12px,#00000012 12px,#00000012 24px), var(--paper);
+}
+
+.zwWorkTitle {
+  margin-top: 16px;
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+}
+
+.zwWorkMeta {
+  font-size: 14px;
+  color: var(--soft);
+  margin-top: 4px;
+}
+
+.zwWorkGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 28px;
+  column-gap: 28px;
+}
+
+@media (max-width: 800px) {
+  .zwWorkGrid {
+  grid-template-columns: 1fr;
+  }
+}
+
+.zwWork {
+  padding: 0px 56px 88px;
+}
+
+.zwServiceNum {
+  font-family: "Instrument Serif", serif;
+  font-size: 26px;
+  color: var(--accent);
+}
+
+.zwServiceTitle {
+  font-weight: 600;
+  font-size: 19px;
+  margin-top: 6px;
+}
+
+.zwServiceDesc {
+  font-size: 15px;
+  color: var(--soft);
+  margin-top: 6px;
+}
+
+.zwService {
+  background: var(--paper);
+  padding: 28px 24px;
+}
+
+.zwServiceGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2px;
+  column-gap: 2px;
+  background: var(--line);
+}
+
+@media (max-width: 800px) {
+  .zwServiceGrid {
+  grid-template-columns: 1fr;
+  }
+}
+
+.zwServices {
+  background: var(--paper);
+  padding: 72px 56px;
+}
+
+.zwPortraitLabel {
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--soft);
+}
+
+.zwPortrait {
+  aspect-ratio: 1 / 1;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  background: repeating-linear-gradient(45deg,#00000008,#00000008 12px,#00000012 12px,#00000012 24px), var(--paper);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+}
+
+.zwAboutP {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.zwAboutP2 {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--soft);
+  margin-top: 16px;
+}
+
+.zwAbout {
+  padding: 80px 56px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  row-gap: 48px;
+  column-gap: 48px;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .zwAbout {
+  grid-template-columns: 1fr;
+  }
+}
+
+.zwClientsLabel {
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--soft);
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.zwClientCell {
+  background: var(--bg);
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 12px;
+  color: var(--soft);
+}
+
+.zwClientGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 1px;
+  column-gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+@media (max-width: 800px) {
+  .zwClientGrid {
+  grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.zwClients {
+  padding: 0px 56px 80px;
+}
+
+.zwContactTitle {
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-size: 56px;
+  margin: 0px 0px 20px;
+}
+
+.zwContactSub {
+  font-size: 18px;
+  color: rgb(216, 207, 190);
+  max-width: 44ch;
+  margin: 0px auto 32px;
+}
+
+.zwContactBtn {
+  display: inline-block;
+  background: var(--accent);
+  color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-thickness: auto;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 36px;
+  border-top-left-radius: 999px;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+  border-bottom-left-radius: 999px;
+}
+
+.zwFooter {
+  font-size: 14px;
+  color: rgb(154, 145, 127);
+  margin-top: 48px;
+}
+
+.zwContact {
+  background: var(--ink);
+  color: var(--bg);
+  padding: 88px 56px;
+  text-align: center;
+}
+
+.zwStudio {
+  --bg: #f6f1e7;
+  --ink: #26221c;
+  --soft: #6a6152;
+  --accent: #e0654b;
+  --paper: #efe7d6;
+  --line: #00000014;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.zwHeroTitle em {
+  color: var(--accent);
+  font-style: italic;
+}
+
+.zwWorkGrid > div:nth-child(2n) {
+  margin-top: 56px;
+}
+
+@media (max-width: 800px) {
+  .zwWorkGrid > div:nth-child(2n) {
+  margin-top: 0px;
+  }
+}
